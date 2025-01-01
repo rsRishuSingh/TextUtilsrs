@@ -5,15 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-let customWidth = () => {
-  let element = document.getElementById("textAreaWidth")
-  if (document.body.clientWidth >= 720) {
-    element.classList.toggle("w-75")
-  }
-  else {
-    element.classList.toggle("w-75")
-  }
-}
+// let customWidth = () => {
+//   let element = document.getElementById("textAreaWidth")
+//   if (document.body.clientWidth >= 720) {
+//     element.classList.toggle("w-75")
+//   }
+//   else {
+//     element.classList.toggle("w-75")
+//   }
+// }
 // customWidth() // Not working on refresh
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
